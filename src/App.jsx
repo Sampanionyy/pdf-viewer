@@ -1,8 +1,14 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import PDFDragDrop from './features/PDFDragDrop'
 
 const App = () => {
     return (
-        <h1 className='text-red-800 text-4xl'>App</h1>
+        <Router>
+            <Routes>
+                <Route path="/" element={<PDFDragDrop />} />
+            </Routes>
+        </Router>
     )
 }
 

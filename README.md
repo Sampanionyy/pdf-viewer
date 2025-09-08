@@ -1,12 +1,15 @@
-# React + Vite
+# PDF Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Drag and drop de fichiers PDF, avec historiques de uploads.
 
-Currently, two official plugins are available:
+1. Clôner le dépôt
+git clone https://github.com/Sampanionyy/pdf-viewer.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Aller dans le projet 
+cd pdf-viewer
 
-## Expanding the ESLint configuration
+3. Installer les dépendances node 
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Démarrer le projet 
+npm run dev 

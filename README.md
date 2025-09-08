@@ -6,7 +6,7 @@ Drag and drop de fichiers PDF, avec historiques de uploads.
 git clone https://github.com/Sampanionyy/pdf-viewer.git
 
 2. Aller dans le projet 
-cd pdf-viewer
+-- cd pdf-viewer
 
 3. Installer les dépendances node 
 npm install

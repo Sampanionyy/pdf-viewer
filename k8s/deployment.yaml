@@ -15,5 +15,6 @@ spec:
       containers:
         - name: pdf-viewer
           image: sampanionyy/pdf-viewer:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80

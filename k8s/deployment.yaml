@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pdf-viewer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pdf-viewer
+  template:
+    metadata:
+      labels:
+        app: pdf-viewer
+    spec:
+      containers:
+        - name: pdf-viewer
+          image: sampanionyy/pdf-viewer:latest
+          ports:
+            - containerPort: 80
